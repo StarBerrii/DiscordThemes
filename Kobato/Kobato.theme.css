@@ -1,0 +1,287 @@
+//META{"name":"Kobato","description":"Kobato theme made for EternalEnd","author":"Syaoran3","version":"1"}*//
+
+
+.app,.callout-backdrop {
+  background: url(https://i.imgur.com/NWzqMQ8.jpg) !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.divider > span {
+  background: none !important;
+}
+
+.divider > div {
+  height: 2px !important;
+}
+
+.title-wrap, .messages-wrapper, .flex-spacer, .scroller, .account, .links, .guilds-wrapper, .btn-settings, .btn-deafen, .btn-mute, .btn-info, .btn-disconnect, .typing, .private-channels, .search-bar, .friends-header, .friends-table, .messages .markup pre, #friends, #voice-connection, .guild-header header, .channels-wrap {
+  background: transparent !important;
+}
+
+#voice-connection .btn-group {
+    background: #F26DEE;
+    color: purple;
+}
+#voice-connection .btn-info:hover, #voice-connection .btn-disconnect:hover {
+    background-color:#ED42E8 !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+  border: 3px solid rgba(255,255,255,0) !important;
+  background-color: rgba(0,0,0,0.3) !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+  border: 3px solid rgba(255,255,255,0) !important;
+  background-color: rgba(0,0,0,0.3) !important;
+  visibility: hidden;
+}
+
+.theme-dark .friends-table .messages .message-group .comment .markup, .theme-dark .messages-wrapper .messages .message-group .comment .markup, .theme-dark .chat .title-wrap .channel-name, .guild-channels .channel-text.selected a,.chat .user-name  {
+  color: #F26DEE !important;
+  font-weight: 800 !important;
+  text-shadow: 1px 1px 0 #43484c,-1px -1px 0 #43484c,1px -1px 0 #43484c,-1px 1px 0 #43484c,0px 1px 0 #43484c,1px 0px 0 #43484c,0px -1px 0 #43484c,-1px 0px 0 #43484c;
+}
+
+.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted) a {
+  color: #F26DEE;
+}
+
+li.selected, span > div.selected, section > div > div > div > div > div.selected, .friends-row:hover, li.channel-text:hover, div.channel.private:hover, .btn-friends:hover, .messages .markup pre code.hljs, .member:hover {
+  background: rgba(60, 60, 60, 0) !important;
+}
+
+.guilds-wrapper .guilds .guild.unread:before, .guilds-wrapper .guilds .guild .badge {
+  background: #F26DEE;
+}
+
+.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
+  background: #F26DEE !important;
+}
+
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+  background: #F26DEE !important;
+}
+
+.guild-channels .channel .channel-name {
+  color: #F26DEE !important;
+  opacity: 1 !important;
+}
+
+.theme-dark .channel-members h2 {
+  color: #F26DEE !important;
+}
+
+.account .account-details .discriminator {
+  color: #F26DEE !important;
+  opacity: 1 !important;
+}
+
+.account .account-details .username {
+  color: #F26DEE !important;
+  font-weight: 800;
+  opacity: 1 !important;
+}
+
+.avatar-small {
+  border-radius: 8px;
+}
+
+.avatar-popout {
+  border-radius: 8px;
+}
+
+.avatar-large {
+  border-radius: 8px;
+}
+
+.avatar-xxlarge {
+  border-radius: 8px;
+}
+
+.avatar-medium {
+  border-radius: 8px;
+}
+
+.avatar-xsmall {
+  border-radius: 8px;
+}
+
+.account .avatar-small {
+  opacity: 1;
+  right: -40px;
+  top: -20px;
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
+}
+
+.emoji.jumboable {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.emoji {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.bda-dark .emoji-picker .scroller .emoji-item.selected {
+  background: rgba(123,123,123) !important;
+}
+
+.account {
+  z-index: 9;
+  border-top: 6px solid !important;
+  background: transparent;
+  height: 120px;
+  box-sizing: border-box;
+  color: #F26DEE;
+  position: relative;
+}
+
+.account .status {
+  border: 0px solid rgba(0,0,0,1);
+}
+
+.account .btn {
+  background: #F26DEE;
+  box-shadow: none !important;
+  border: none;
+}
+
+.account .btn:active {
+  background: #F26DEE;
+}
+
+.account .btn-deafen,.account .btn-mute {
+  border-right: 0px solid #000;
+}
+
+.account .btn-deafen, .account .btn-settings {
+  box-shadow: none !important;
+}
+
+.account .btn-group {
+  border: none;
+  position: absolute;
+  right: 72px;
+  top: 75px;
+}
+
+.account .avatar-small {
+  opacity: 1;
+  right: -40px;
+  top: -20px;
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
+}
+
+.account .account-details {
+  padding-bottom: 38px;
+  padding-left: 50px;
+}
+
+.account .account-details .username {
+  max-width: 100px !important;
+  font-size: 15px;
+}
+
+.account .account-details .discriminator {
+  font-size: 20px;
+}
+
+.user-popout .avatar-wrapper .avatar-popout .status {
+  bottom: -5px;
+  right: -5px;
+}
+
+.emoji-picker .scroller {
+  height: 400px;
+}
+
+.emoji-picker {
+  height: 500px;
+}
+
+.guilds-wrapper {
+  width: 125px;
+}
+
+.guilds-wrapper .scroller-wrap {
+  width: 150px;
+}
+
+.guilds-wrapper .guilds {
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 0;
+  align-content: flex-start;
+}
+
+.guilds-wrapper .guilds .guild {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.guilds-wrapper .guilds .guild.unread::before {
+  left: -2px;
+  top: 5px;
+  z-index: 9000;
+}
+
+.guilds-wrapper .guilds .guild:first-child {
+  position: relative;
+  left: 0;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#bd-pub-li {
+  position: absolute;
+  top: 96px;
+  left: 35px;
+}
+
+#bd-pub-li #bd-pub-button {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.guilds-wrapper .guilds .guild-separator {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.guilds-wrapper .guilds .guild.selected:before {
+  display: none;
+}
+
+.guilds-wrapper .guilds .guild {
+  position: relative;
+}
+
+.guilds-wrapper .guilds .dms {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.guilds-wrapper .guilds .dms .guild {
+  left: 0;
+}
