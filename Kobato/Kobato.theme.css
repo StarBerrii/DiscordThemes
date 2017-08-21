@@ -2,7 +2,7 @@
 
 
 .app,.callout-backdrop {
-  background: url(https://i.imgur.com/NWzqMQ8.jpg) !important;
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/df/fa/84/dffa84e97e5244486c51e08b5269cc17--so-kawaii-strawberry-fields.jpg) !important;
   background-size: cover !important;
   background-attachment: fixed !important;
   background-position: center !important;
@@ -22,11 +22,11 @@
 }
 
 #voice-connection .btn-group {
-    background: #F26DEE;
-    color: purple;
+    background: #dfc2ef;
+    color: lavender;
 }
 #voice-connection .btn-info:hover, #voice-connection .btn-disconnect:hover {
-    background-color:#ED42E8 !important;
+    background-color:#dfc2ef!important;
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
@@ -55,33 +55,33 @@ li.selected, span > div.selected, section > div > div > div > div > div.selected
 }
 
 .guilds-wrapper .guilds .guild.unread:before, .guilds-wrapper .guilds .guild .badge {
-  background: #F26DEE;
+  background: #dfc2ef;
 }
 
 .guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
-  background: #F26DEE !important;
+  background: #dfc2ef !important;
 }
 
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-  background: #F26DEE !important;
+  background: #dfc2ef !important;
 }
 
 .guild-channels .channel .channel-name {
-  color: #F26DEE !important;
+  color: #dfc2ef !important;
   opacity: 1 !important;
 }
 
 .theme-dark .channel-members h2 {
-  color: #F26DEE !important;
+  color: #dfc2ef !important;
 }
 
 .account .account-details .discriminator {
-  color: #F26DEE !important;
+  color: #dfc2ef !important;
   opacity: 1 !important;
 }
 
 .account .account-details .username {
-  color: #F26DEE !important;
+  color: #dfc2ef !important;
   font-weight: 800;
   opacity: 1 !important;
 }
@@ -155,7 +155,7 @@ li.selected, span > div.selected, section > div > div > div > div > div.selected
 }
 
 .account .btn:active {
-  background: #F26DEE;
+  background: #dfc2ef;
 }
 
 .account .btn-deafen,.account .btn-mute {
